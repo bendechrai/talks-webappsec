@@ -1,9 +1,0 @@
-Array
-(
-    [username] => admin
-    [password] => supersecure
-)
-Array
-(
-    [PHPSESSID] => f7m69rspdffaes9p395vetsbt3
-)
