@@ -13,7 +13,7 @@
 	<div class="row">
 		<div class="col-md-4">
 			<h2>SQL Injection: Register</h2>
-			<?php if(isset($_SESSION['reg_query'])) : ?><p>Last query: <strong><?php echo htmlspecialchars($_SESSION['reg_query']) ?></strong></p><?php endif; ?>
+			<?php if(isset($_SESSION['reg_query'])) : ?><p>Last query: <code><?php echo htmlspecialchars($_SESSION['reg_query']) ?></code></p><?php endif; ?>
 			<form action="sql-register.php" method="post">
 				<div><label>Username <input autocomplete="off" type="text" name="username" class="form-control" value="<?php echo htmlspecialchars($_SESSION['reg_un']) ?>"/></label></div>
 				<div><label>Password <input autocomplete="off" type="text" name="password" class="form-control" value="<?php echo htmlspecialchars($_SESSION['reg_pw']) ?>"/></label></div>
@@ -22,7 +22,7 @@
 		</div>
 		<div class="col-md-4">
 			<h2>SQL Injection: Login</h2>
-			<?php if(isset($_SESSION['login_query'])) : ?><p>Last query: <strong><?php echo htmlspecialchars($_SESSION['login_query']) ?></strong></p><?php endif; ?>
+			<?php if(isset($_SESSION['login_query'])) : ?><p>Last query: <code><?php echo htmlspecialchars($_SESSION['login_query']) ?></code></p><?php endif; ?>
 			<form action="sql-login.php" method="post">
 				<div><label>Username <input autocomplete="off" type="text" name="username" class="form-control" value="<?php echo htmlspecialchars($_SESSION['login_un']) ?>"/></label></div>
 				<div><label>Password <input autocomplete="off" type="text" name="password" class="form-control" value="<?php echo htmlspecialchars($_SESSION['login_pw']) ?>"/></label></div>

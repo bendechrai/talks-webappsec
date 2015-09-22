@@ -1,3 +1,19 @@
+.navbar-brand, .navbar-nav * {
+  font-size: 3rem !important;
+}
+p, th, td, li, iframe, pre, textarea, input, option, .tooltip {
+  font-size: 2rem !important;
+}
+.tootip {
+  text-align: left;
+}
 li.admin a {
 	color: #f00 !important;
+}
+code {
+  font-family: monospace;
+  color: #060;
+}
+code em {
+  color: #f00;
 }

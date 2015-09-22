@@ -1,0 +1,16 @@
+Array
+(
+    [PHPSESSID] => f709bahfhtvfp51m99i2lq6ed2; remember=1
+)
+Array
+(
+    [PHPSESSID] => f709bahfhtvfp51m99i2lq6ed2; remember=1
+)
+Array
+(
+    [PHPSESSID] => f709bahfhtvfp51m99i2lq6ed2; remember=1
+)
+Array
+(
+    [PHPSESSID] => f709bahfhtvfp51m99i2lq6ed2
+)
