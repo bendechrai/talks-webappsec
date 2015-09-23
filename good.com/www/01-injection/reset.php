@@ -10,7 +10,7 @@
 		admin integer
 	)");
 
-	$db->exec("INSERT INTO user (username, password, admin) VALUES ('ben', 'password', 0)");
 	$db->exec("INSERT INTO user (username, password, admin) VALUES ('admin', 'complex', 1)");
+	$db->exec("INSERT INTO user (username, password, admin) VALUES ('ben', 'password', 0)");
 
 	header('location: ' . $_SERVER['HTTP_REFERER']);
